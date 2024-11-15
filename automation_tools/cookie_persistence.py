@@ -22,7 +22,6 @@ bot_ie.browser = Browser.IE
 bot_ie.start_browser()
 bot_ie.browse("https://www.seu-site.com/")
 
-# Importar os cookies
 import_cookies(bot_ie, cookies)
 bot_ie.refresh()
 
